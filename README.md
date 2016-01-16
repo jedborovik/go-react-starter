@@ -9,14 +9,14 @@ $ cd server
 $ go build && ./server
 
 # Another terminal pane
-$ npm start
+$ npm i && npm start
 ```
 
 Then visit `localhost:3334`.
 
 ### Prod
 ```
-$ npm build
+$ npm i && npm run build
 $ cd server
 $ go build && ./server
 ```
